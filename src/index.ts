@@ -5,9 +5,20 @@
 // world.sayHello(root)
 
 //03.基本の型定義
-import { anySample, notExistSample, primitiveSample, unknownSample } from './basic'
+// import { anySample, notExistSample, primitiveSample, unknownSample } from './basic'
 
-anySample()
-notExistSample()
-primitiveSample()
-unknownSample()
+// anySample()
+// notExistSample()
+// primitiveSample()
+// unknownSample()
+
+// 04.関数の型定義
+import { logMessage } from './function/basic'
+import { isUsetSignedIn, isUsetSignedIn2, sumProductsPrice } from './function/parameters'
+
+logMessage('Hallo TypeScript!')
+isUsetSignedIn('ABC', 'torahack')
+isUsetSignedIn('DEF')
+isUsetSignedIn2('ABC')
+const sum = sumProductsPrice(100, 200, 300, 400, 500)
+console.log('Function parameters sample 5:', sum)
