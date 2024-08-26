@@ -1,13 +1,13 @@
 export default class World {
-    message: string;
-  
-    constructor(message: string) {
-      this.message = message
-    }
+  message: string
 
-    public sayHello(elem: HTMLElement | null) {
-      if (elem) {
-        elem.innerText = this.message
-      }
+  constructor(message: string) {
+    this.message = message
+  }
+
+  public sayHello(elem: HTMLElement | null) {
+    if (elem) {
+      elem.innerText = this.message
     }
   }
+}
