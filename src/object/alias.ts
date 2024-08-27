@@ -35,10 +35,10 @@ export default function typeAliasSample() {
     magicSkill: string
   }
 
-  //合併型KnightまたはWizardの型を持つ
+  //合併型 KnightまたはWizardの型を持つ
   type Adventurer = Knight | Wizard
 
-  //交差型KnightかつWizardの型を持つ
+  //交差型 KnightかつWizardの型を持つ
   type Paladin = Knight & Wizard
 
   // Knight寄りの冒険者
