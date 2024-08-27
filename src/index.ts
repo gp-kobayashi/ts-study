@@ -13,12 +13,19 @@
 // unknownSample()
 
 // 04.関数の型定義
-import { logMessage } from './function/basic'
-import { isUsetSignedIn, isUsetSignedIn2, sumProductsPrice } from './function/parameters'
+// import { logMessage } from './function/basic'
+// import { isUsetSignedIn, isUsetSignedIn2, sumProductsPrice } from './function/parameters'
 
-logMessage('Hallo TypeScript!')
-isUsetSignedIn('ABC', 'torahack')
-isUsetSignedIn('DEF')
-isUsetSignedIn2('ABC')
-const sum = sumProductsPrice(100, 200, 300, 400, 500)
-console.log('Function parameters sample 5:', sum)
+// logMessage('Hallo TypeScript!')
+// isUsetSignedIn('ABC', 'torahack')
+// isUsetSignedIn('DEF')
+// isUsetSignedIn2('ABC')
+// const sum = sumProductsPrice(100, 200, 300, 400, 500)
+// console.log('Function parameters sample 5:', sum)
+
+// 05.オブジェクトの型定義
+import objectSample from './object/object'
+import typeAliasSample from './object/alias'
+
+objectSample()
+typeAliasSample()
